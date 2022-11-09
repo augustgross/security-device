@@ -2,7 +2,7 @@ import random
 from statistics import mean
 ucode = '817341' 
 lcode = '817344'
-def tester():
+def stat():
     locked = True
     c = ''
     o = 0
@@ -34,7 +34,7 @@ while True:
         print('Please enter an integer between 1 and 100.')
 
 for i in range(int(n)):
-    v.append(tester())
+    v.append(stat())
 print('Test results:')
 print("Max: " + str(max(v)))
 print("Min: " + str(min(v)))
